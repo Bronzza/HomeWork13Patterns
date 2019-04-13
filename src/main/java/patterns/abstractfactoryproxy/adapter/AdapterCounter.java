@@ -9,7 +9,7 @@ public class AdapterCounter implements Counter {
     private Adaptee adaptee = new Adaptee();
 
     @Override
-    public void count() {
-        adaptee.count();
+    public int count() {
+        return adaptee.count();
     }
 }
