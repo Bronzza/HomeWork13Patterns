@@ -3,7 +3,7 @@ package patterns.abstractfactoryproxy;
 import lombok.Getter;
 import lombok.Setter;
 
-public class ConcreteProxyCreatror {
+public class ConcreteProxyCreator {
     @Setter
     @Getter
     private ProxyCounter proxyCounter;
