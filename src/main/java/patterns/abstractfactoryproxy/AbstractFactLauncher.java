@@ -16,9 +16,9 @@ public class AbstractFactLauncher {
         CounterConsumer counterConsumer2 = new CounterConsumer((ProxyCounter) counterProxyFactory.createProxy());
         CounterConsumer counterConsumer3 = new CounterConsumer(creatorFactory.getProxyCounter());
         CounterConsumer counterConsumer4 = new CounterConsumer(new AdapterCounter());
-        counterConsumer1.doSmth();
-        counterConsumer2.doSmth();
-        counterConsumer3.doSmth();
-        counterConsumer4.doSmth();
+        System.out.println(counterConsumer1.doSmth());
+        System.out.println(counterConsumer2.doSmth());
+        System.out.println(counterConsumer3.doSmth());
+        System.out.println(counterConsumer4.doSmth());
     }
 }

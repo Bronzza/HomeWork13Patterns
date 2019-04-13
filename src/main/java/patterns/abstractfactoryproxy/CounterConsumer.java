@@ -8,7 +8,7 @@ public class CounterConsumer {
         this.counter = counter;
     }
 
-    public void doSmth() {
-        counter.count();
+    public int doSmth() {
+        return counter.count();
     }
 }
